@@ -17,12 +17,7 @@ const Arithmetic = () => {
     result = first / second
   }
 
-  return (
-    <div>
-      <h1>The answer is {result}</h1>
-      <Link to="/">Back to Calculator</Link>
-    </div>
-  )
+  return <h1>The answer is {result}</h1>
 }
 
 export default Arithmetic;
